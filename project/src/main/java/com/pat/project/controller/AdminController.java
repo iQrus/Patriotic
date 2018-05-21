@@ -30,7 +30,7 @@ public class AdminController {
 	@Autowired
 	private IPatriotTransactionAuditDataService patriotTransactionAuditDataService;
 
-	// ADMIN DATA DISPLAY
+	// ADMIN DATA DISPLAY check
 	@GetMapping(PatriotURIConstant.DASHBOARD)
 	public String dispalyDashBoard() {
 	//	PatriotDataMaster patriotDataMaster = patriotDataMasterService.getDashBoardData();
